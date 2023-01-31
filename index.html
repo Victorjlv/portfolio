@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="João Victor">
+    <meta name="keywords" content="portfolio, html, front-end, desenvolvimento, css, javascript">
+    <link rel="shotcut icon" type="image/png" href="assets/foguete.png" />
+    <title>Portfólio | João Victor</title>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body>
+    <!-- header -->
+    <header>
+    <nav data-menu="suave">
+       <p><a href="#home">&lsaquo;JV/&rsaquo;</a></p>
+       <button data-menu="button" aria-controls="menu"></button>
+      <ul data-menu="list" id="menu">
+        <a href="#home">
+        <li>Início</li>
+      </a>
+        <a href="#sobre">
+          <li>Sobre</li>
+        </a>
+        <a href="#experiencia">
+        <li>Experiência</li>
+      </a>
+      <a href="#projetos">
+        <li>Projetos</li>
+      </a>
+      </ul>
+    </nav>
+  </header>
+  <!-- end header-->
+
+  <!-- main -->
+    <main>
+      <section class="principal" id="home" >
+        <div class="principal__left">
+          <h1>Olá, eu sou</h1>
+            <span class="principal__sentence"></span>
+            <span class="principal__input-cursor"></span>
+          <h1>Desenvolvedor Web</h1>
+          <div class="principal__botao">
+            <a href="https://www.linkedin.com/in/vviccttor/" target="_blank">
+              <div class="principal__botao-linkedin">
+                <img src="./assets/linkedin.png" alt="" />
+                <p>LinkedIn</p>
+              </div>
+            </a>
+            <a href="https://github.com/Victorjlv" target="_blank">
+              <div class="principal__botao-github">
+                <img src="./assets/github.png" alt="" />
+                <p>Github</p>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="movimento">
+          <img src="./assets/avatar.png" alt="Ilustração representando uma desenvolvedora sentada na cadeira mexendo no notebook com ambiente em volta." data-tilt>
+        </div>
+        
+        <div class="scroll" data-menu="suave"><a href="#sobre" > <p> scroll down </p> <img src="./assets/scroll.png" alt="Setinha indicando para rolar a tela para baixo"></a></div>
+      </section>
+      
+      <!-- sobre -->
+      <section class="sobre-mim" id="sobre" data-anime="js-scroll">
+        <div class="sobre-mim__foto">
+          <img src="./assets/eu.jpeg" alt="Uma foto do João Victor" />
+        </div>
+        <div class="sobre-mim__descricao" >
+          <h1>Sobre mim</h1>
+          <h2>Sapucaia do Sul, RS</h2>
+          <p>
+            Olá! Sou João Victor, tenho 18 anos, atualmente estou estudando ADS na Estácio, ja fiz 
+            alguns cursos, tais como de: HTML, CSS, JS, Lógica de Programação e agr estou fazendo de 
+            React JS, sempre quero aprender mais, busco desafios novos, por isso penso em começar a estudar
+            Back End para me tornar desenvolvedor Full Stack.<br>
+            Comecei meus estudos em 2022, e estou cada vez mais apaixonado pela programação, todos os dias
+            estudo sobre, faço algumas lading pages para me desenvolver cada vez mais.
+            
+          </p>
+          <div class="sobre-mim__descricao-buttons">
+            <a href="CurriculoJV.pdf" download="">
+              <div class="sobre-mim__descricao-buttons-curriculo">
+                <img src="./assets/download-da-nuvem.png" alt="" />
+                <p>Currículo</p>
+              </div>
+            </a>
+          </div>
+        </div>
+      </section>
+      <!-- end sobre -->
+
+      <!-- experiencia -->
+      <section class="experiencia" id="experiencia" data-anime="js-scroll">
+        <h1>Experiência</h1>
+        <div class="experiencia__wrapper">
+          <section class="experiencia__lugares">
+            <ul data-tab="menu">
+              <li>&#128064&#128064</li>
+              <li>Estudos</li>
+              <li>Mais Sobre</li>
+            </ul>
+          </section>
+          <div class="experiencia__descricao" data-tab="content">
+            <section data-anime="show-right">
+              <h2>Em busca da minha primeira experiência :)</h2>
+              <p class="experiencia__descricao-local">Quem sabe na sua empresa?</p>
+              <p>Estou disponível para bater um papo, você pode entrar em contato via e-mail contactvicctor@gmail.com &#10024</p>
+            </section>
+            <section data-anime="show-right">
+            <h2>Faculdade / Cursos</h2>
+            <span>Jan 2022 - Atual</span>
+            <p class="experiencia__descricao-local">Faculdade Estácio / Cursos DevMedia</p>
+            <p> 
+              Comecei em Jan de 2022 a faculdade, meio perdido, sem entender, mas depois de uns 2 meses
+              peguei o jeito com a programação, devido a videos que vi no YT, fiz alguns projetos (que não tenho mais)
+              e com isso fui me desenvolvendo cada vez mais, depois fiz cursos e estou em constante evolução.
+            </p>
+          </section>
+          <section data-anime="show-right">
+            <h2>Resumo</h2>
+            <span>Atual</span>
+            <p class="experiencia__descricao-local">Coisas que gosto de fazer fora do computador :)</p>
+            <p>
+                Gosto de desenhar no tempo livre, pensei em fazer design, mas me apaixonei mais pela programação,
+                amo musica, as vezes até estudo ouvindo música, será que é só eu que tenho esse costume? rs
+                Pratico alguns exercícios todos os dias antes de estudar (manter o corpo em forma de grilo) rsrs
+            </p>
+          </section>
+        </div>
+        </section>
+        </div>
+      </section>
+      <!-- end experiencia -->
+
+      <!-- projetos -->
+      <section class="projetos" id="projetos" data-anime="js-scroll">
+        <h1>Projetos</h1>
+        
+        <!-- projeto 1 -->
+        <div class="projetos__wrapper">
+          <section class="projetos__card">
+            <a href="https://flappyx.vercel.app/" target="_blank">
+            <img src="./assets/Flappy-Bird.jpg" alt="Imagem do jogo Flappy Bird" class="projeto-img"/>
+          </a>
+            <h2>Flappy Bird</h2>
+            <p>
+              Jogo do Flappy Bird feito apenas com JS e HTML, muito divertido de jogar. (somente para pc)
+            </p>
+            <span>Tecnologias usadas no projeto: HTML e JS</span>
+            <a href="https://flappyx.vercel.app/" target="_blank">
+              <div class="projetos__card-button">
+                <img src="./assets/link.png" alt="">
+                Visualizar
+              </div>
+            </a>
+          </section>
+          
+          <!-- projeto 2 -->
+          <section class="projetos__card">
+            <a href="https://spidermann.vercel.app/" target="_blank">
+            <img src="./assets/miranha.jpg" alt="Imagem do Homem Aranha" class="projeto-img"/>
+            </a>
+            <h2>Site Spider Man</h2>
+            <p>
+              Um dos primeiros projetos utilizando JS, fiz com a DIO em uma live do YT.
+            </p>
+            <span>Tecnologias usadas no projeto: HTML, CSS e JS.</span>
+            <a href="https://spidermann.vercel.app/" target="_blank"
+              >
+              <div class="projetos__card-button">
+              <img src="./assets/link.png" alt="">
+              Visualizar
+            </div>
+            </a>
+          </section>
+          
+          <!-- projeto 3 -->
+          <section class="projetos__card">
+            <a href="https://pokexy.vercel.app/" target="_blank">
+            <img src="./assets/pokemons.jpg" alt="Imagem de pokemons" class="projeto-img"/>
+            </a>
+            <h2>Pokédex</h2>
+            <p>
+              Projeto Pokédex consumindo uma API de Pokémon.
+            </p>
+            <span>Tecnologias usadas no projeto: HTML, CSS e JS.</span>
+            <a href="https://pokexy.vercel.app/" target="_blank">
+              <div class="projetos__card-button">
+                <img src="./assets/link.png" alt="">
+                Visualizar
+              </div>
+            </a>
+          </section>
+          
+          <!-- projeto 4 -->
+          <section class="projetos__card">
+            <a href="https://disneyx.vercel.app/" target="_blank">
+            <img src="./assets/disney.jpg" alt="Imagem logo da disney" class="projeto-img"/>
+          </a>
+            <h2>Interface Disney</h2>
+            <p>
+              Interface da Disney Plus com uma API.
+            </p>
+            <span>Tecnologias usadas no projeto: HTML, CSS e JS.</span>
+            <a href="https://disneyx.vercel.app/" target="_blank">
+              <div class="projetos__card-button">
+                <img src="./assets/link.png" alt="">
+                Visualizar
+              </div>
+            </a>
+   
+          </section>
+        </div>
+      </section>
+      <!-- end projetos -->
+
+      <!-- footer -->
+      <footer>
+        <p>Desenvolvido por</p><a href="https://www.linkedin.com/in/vviccttor/" target="_blank"><span> João Victor</span></a>
+      </footer>
+    </main>
+
+    <!-- link js -->
+    <script defer src="js/script.js" type="module"></script>
+    
+  </body>
+</html>
