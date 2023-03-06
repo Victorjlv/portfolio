@@ -690,7 +690,6 @@ footer span:hover {
   .principal__botao-linkedin,
   .principal__botao-github,
   .sobre-mim__descricao-buttons-curriculo,
-  .sobre-mim__descricao-buttons-email,
   .projetos__card-button {
     width: 110px;
   }
@@ -700,7 +699,7 @@ footer span:hover {
     width: auto;
     justify-content: space-around;
   }
-
+  
   footer {
     font-size: 0.8rem;
   }
